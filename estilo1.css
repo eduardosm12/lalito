@@ -1,0 +1,123 @@
+body{
+	
+background:url(/C:/Users/joseeduardo/Documents/joyeria/recursos/img/fondo26.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+	font-family: Arial;
+	font-size: 16px;
+}
+
+
+header{
+
+
+	border: 1px solid  #D7D7D7;
+	background:white;
+margin-right: 15% ;
+ 	margin-left: 15%;
+ 	margin-top: 2%;
+	overflow: hidden;
+
+
+}
+
+header h1{
+	color: #ffbf00;
+font-family: 'Pinyon Script', cursive;
+font-size: 2.6em;
+font-weight: normal;
+margin: 0 0 0 0.5em;
+float: left;
+
+}
+nav ul li a 
+{
+	text-decoration: none;
+}
+ nav ul li{
+
+	display: block;
+	float: right;
+	margin:1.5%;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3em;
+	text-align: center;
+
+}
+nav ul li a:hover
+{
+	color:#ffbf00;
+	text-align: center;
+	text-decoration: none;
+}
+
+ section
+ {
+ 	opacity: 0.95;
+
+  background: white;
+
+ 	margin-right: 15% ;
+ 	margin-left: 15%;
+ padding: 1em;
+ }
+ #item img {
+ 
+	width: 100%;
+
+	max-width: 1200px;
+	max-height: 900px;
+	overflow: hidden;
+	
+
+
+ }
+.contenedor
+
+{
+
+
+overflow: hidden;
+position: relative;
+
+
+}
+ .cont img{
+position: relative;
+max-height: 250px;
+max-width: 350px;
+float: left;
+margin: 2.5%;
+box-shadow: 2px 2px 5px #999;
+  
+   
+  
+
+ }
+  section .contenedor .cont img:hover
+  {
+  -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    margin-top: 5px;
+
+  }
+   
+
+footer
+{
+	border: 1px solid  #D7D7D7;
+	background: white;
+margin-right: 15% ;
+ 	margin-left: 15%;
+	margin-bottom: 2%;
+padding:2em;
+	font-size: 10px;
+font-family: Pacifico;
+	text-align: center;
+	color: 	#48D1CC;
+
+}
